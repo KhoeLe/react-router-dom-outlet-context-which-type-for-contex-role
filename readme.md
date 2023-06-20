@@ -1,4 +1,4 @@
-The provided code seems to be using the AuthProvider component to manage authentication and rendering different routes based on the user's authentication status. The stack and additional project details are not explicitly mentioned in the code snippet, so I'll provide a general description of a typical React project setup.
+The provided code seems to be using the AuthProvider component to manage authentication and render different routes based on the user's authentication status. The stack and additional project details are not explicitly mentioned in the code snippet, so I'll provide a general description of a typical React project setup.
 
 Based on the code snippet, it appears to be a React project with the following components and concepts:
 
@@ -10,7 +10,7 @@ Based on the code snippet, it appears to be a React project with the following c
 
     Page Components: The code snippet includes page components such as Home, About, Contact, Unauthorized, and Dashboard. These components represent different pages or sections of the application and are rendered within the appropriate routes.
 
-    ProtectedRoute: This is a custom component used to protect certain routes and restrict access based on the user's roles. It ensures that only authenticated users with specific roles, such as "admin," can access certain pages or components.
+    ProtectedRoute: This custom component is used to protect certain routes and restrict access based on the user's roles. It ensures that only authenticated users with specific roles, such as "admin," can access certain pages or components.
 
 Overall, the project appears to follow a common pattern of using authentication, routing, and protected routes to create a multi-page React application with role-based access control.
 
